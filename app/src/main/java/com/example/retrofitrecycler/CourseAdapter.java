@@ -41,6 +41,7 @@ public class CourseAdapter extends RecyclerView.Adapter<CourseAdapter.ViewHolder
         CourseModel modal = courseModalArrayList.get(position);
         holder.courseNameTV.setText(modal.getCourseName());
         holder.courseDescTV.setText(modal.getCourseDescription());
+        //ks
     }
 
     @Override
